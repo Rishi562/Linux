@@ -1,0 +1,30 @@
+sudo cat /etc/passwd
+or
+cd /home and then ls
+
+the above shows all the users 
+
+
+To make a new group of users-
+
+-sudo groupadd Devops
+this will create a group with name Devops
+to view all groups - 
+-sudo cat /etc/group
+
+we can create users with useradd -m jetha and babita and add it to tapusena
+to add, we can 
+-sudo gpasswd -a jetha tapusena
+to add multiple users,
+-sudo gpasswd -m jetha,babita tapusena
+
+to give permissions of a file to group - 
+-sudo chgrp tapusena file1.txt
+
+
+https://www.redswitches.com/blog/add-user-to-group-linux/#what-is-a-group-in-linux
+
+---------------------------------------------------------------------------------------------
+
+to change group of a file
+sudo chgrp devops application.log

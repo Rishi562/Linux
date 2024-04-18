@@ -1,0 +1,40 @@
+Everything in linux is a file or a directory
+
+
+arch of linux - 
+
+1   kernal - it is the code that lets the linux work and allows processes to be executed
+2   shell  - it gives the command towards the kernal which processes it
+
+we cannot talk to kernel directly
+
+application talks to shell
+shell talks to kernal
+
+ex - mkdir- this command runs a c equivalent code in the kernal and makes a folder on the disk
+
+ex- touch file - this will make a file with no extension . the shell executes this command and kernel processes it 
+                    on the hardware(disk)
+
+
+~/ is the home directory
+the first is the /
+this is the root directory
+everything in linux is a file or a directory
+/
+BIN-
+all the commands that we use is stored in the bin folder
+all executables are in green color,file is white and blue is directory
+
+common user commands you use in a single user mode are stored here
+
+SBIN - here all the commands are what are used by as system admins
+
+refer notes for more
+
+all users are located in /home
+
+to goto home we can do cd ~
+to goto root directory we can use cd /
+
+tee command reads from cmdline input and writes it to the output and files

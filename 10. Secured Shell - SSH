@@ -1,0 +1,23 @@
+SSH is used for remote login into remote servers.
+stands for secured shell
+It uses keys to access remote servers
+
+we need a private key with us to login into a remote servers
+This private key is created while creating a servers
+the command is - 
+-ssh-keygen
+this is run when an ec2 is created, and private key is downloaded to us.
+
+So, the public key is on the ec2 server and private with us.
+
+if we want to login from windows to linux, we will need a ppk format. using putty
+if from linux , we use .pem format.
+this uses the openssh protocol
+
+We use an sshclient to login into remote server.
+Terminal can also be used as a client
+1. --if we type ssh on terminal, it will show us info that it is an ssh client
+2. locate the file using find command
+cd ~/Downloads and ls -l
+
+

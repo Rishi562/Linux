@@ -1,0 +1,43 @@
+#!/bin/bash  ---- this is shabang bin bash,present in every shell script
+                    this tells us what type of script it is, here it is bourne again shell
+                    other shells are ksh powershell
+
+echo "hello" - this is a print statement
+
+-------------------------
+
+Shell script needs to be executable.
+so to make it executable for the user,
+chmod 700 hello.sh
+
+
+we need to save it as sh
+
+2 ways to run a shell script 
+./hello.sh
+here we need to to make it executable
+or
+bash hello.sh
+--------------------------------------------
+
+read takes your input and stores in a variable
+read foldername
+
+now you can point this to echo or any other command
+like mkdir
+
+so mkdir $foldername
+
+this is how ot is used
+--------------------------------------------
+Variable 
+We create variable normally
+name=Rishi
+but when we use it, we need to use $name
+---------------------------------------------------------
+Arguments
+
+
+
+
+

@@ -1,0 +1,46 @@
+Linux ubuntu is based on debian
+
+
+1.Software store/package manager 
+    this is pretty with GUI and done in clicks
+
+
+2.Synaptic/Pamac - first we need to install this from terminal
+    this shows a giant list of things
+    this is very comprehensive 
+
+
+3.Terminal - 
+    a.sudo apt update - this refreshes our list of repositiries
+    b.sudo apt install packagename
+    look first if your distro uses apt or apt-get
+
+
+4.Snaps/Flatpaks/Appimage - 
+    Snapcraft.io/store - online store for packages,use the package name 
+    to install something,use the terminal with package name
+    use - sudo snap install packagename
+
+    Appimage - Download the app image
+    If we double click on it,it gives an error
+
+    Right click on it and properties
+    Then goto permissions and allow execute file as a program
+    now this can be double clicked and opened right update
+    Appimage is a unique format
+
+
+5.Run/Manual Install - Download application,run it and manually install it
+    has a format of tar
+    Extract this by double clicking it
+    goto the folder,copy the application file named same as package
+    move mv the folder to  /opt - sudo mv brave /opt
+
+    now goto usr/share/applications
+    we have to manually create a reference point here
+    create a copy of the filename and remane as package.desktop
+
+    now this can be found in our application menu
+
+    
+

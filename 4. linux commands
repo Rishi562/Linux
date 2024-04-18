@@ -1,0 +1,6 @@
+if we need to create 2 files we can do 
+
+touch file1.txt file2.txt
+
+if we need 12 then,
+touch file{1..10}.txt

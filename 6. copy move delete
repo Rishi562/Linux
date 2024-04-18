@@ -1,0 +1,26 @@
+copy
+
+cp source destination/
+
+cp filename.txt newfolder
+
+-------------------------------------
+
+if we want to copy all files with same name with any extension to a folder
+
+cp filename* newfolder/
+
+--------------------------------------
+--------------------------------------
+
+move
+
+mv source destination
+
+mv filename newfolder/
+
+-----------------------------------
+removes file
+
+rm filename
+

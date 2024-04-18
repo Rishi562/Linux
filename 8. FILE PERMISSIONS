@@ -1,0 +1,46 @@
+There are three permissions
+
+r-read the file
+w-write to the file
+x-execute the file as a shell script or a program
+
+All combinations of permissions are only 8
+r = 4 , w = 2 , x = 1
+
+
+4  2  1
+r  w  x     = 7
+r  w  -     = 6
+r  -  x     = 5
+r  -  -     = 4
+-  w  x     = 3
+-  w  -     = 2
+-  -  x     = 1
+-  -  -     = 0
+
+so chmod 777 means owner,group and other all have rwx permissions,
+so 777 = -rwxrwxrwx
+
+
+
+example 
+- chmod 777 file1.txt
+- chmod 600 file2.txt
+
+
+
+
+
+-rw-rw-r--
+- [group1]-             [group2]-                            [group3]--
+   owner permissions    users group permissions             otherusers permissions
+
+here the owner has read write and blank, user group has read write and blank, others have only read
+
+drw
+
+- shows if its a directory or a file, here is a file
+d - shows if its a directory or a file, here is a directory
+
+to give permissions of a file to group - 
+-sudo chgrp tapusena file1.txt

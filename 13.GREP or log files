@@ -1,0 +1,29 @@
+Grep is used to find a particualr word inside a particular file
+EX - grep rishi /etc/passwd
+                            Here,passwd is the file of user lst
+
+use 
+grep -i rishi /etc/passwd to ignore case sensitivity and see all occurances
+
+
+
+Real World use - 
+
+Application log file
+It is a file which notes all the things that happens in the backend
+
+
+----------
+If QA team asks only Trace details in the log file,
+we can grep it from the log file 
+- grep TRACE application.log
+
+Now Trace only is needed in seperate file
+so,output is redirected in new file
+
+grep TRACE application.log > trace_onlyforQA.log
+now a new file will be created
+
+Best practice is to save it in form of .log extension
+
+

@@ -1,0 +1,20 @@
+ubuntu has package installer - apt
+centos has package installer - yum
+
+first do sudo apt update
+
+Update - the links/references of these packages are updated
+upgrade - new packages are installed
+
+to install something - sudo apt install brave
+
+to uninstall something - sudo apt uninstall/remove
+
+
+sudo apt update - this needs superuser sudo
+update updates the links/references to the packages  so that it can be installed
+
+sudo apt upgrade - this installs the new packages,actual installation happens here
+
+
+

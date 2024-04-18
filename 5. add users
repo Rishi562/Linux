@@ -1,0 +1,20 @@
+
+sudo useradd -m username
+
+-m is so that a folder of same username will be created in the home folder
+
+now,set password for this useradd
+
+sudo passwd username
+now, set password for the user
+
+now, we cannot switch to this user or access the folders of it.
+we need to switch from current to the new
+
+su - for switch user
+
+su username
+
+now,we can check it with whoami command it will switch
+
+we can switch but cannot create something, we need to give it permissions further

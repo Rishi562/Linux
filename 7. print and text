@@ -1,0 +1,15 @@
+echo "hello"
+
+if we need to put it into a file directly,
+we can 
+
+echo "hello" > hi.txt
+
+this will put it in the hi.txt file
+
+-------------------------------------------------------
+
+cat hi.txt
+
+this will show us whats in the file
+

@@ -1,0 +1,33 @@
+~/ is the home directory
+
+
+
+. find . -name thisfile.txt
+
+If you need to know how to find a file in Linux called thisfile.txt, it will look for it in current and sub-directories.
+
+2. find /home -name *.jpg
+or
+find ~/ -name application.log
+
+Look for all .jpg files in the /home and directories below it.
+
+3. find . -type f -empty
+
+Look for an empty file inside the current directory.
+
+4. find /home -user randomperson-mtime 6 -iname ".db"
+
+Look for all .db files (ignoring text case) that have been changed in the preceding 6 days by a user called randomperson.
+
+---------------------------------------------------------------
+
+5. find ~/ -user ubuntu
+This finds all the files created by user ubuntu
+---------------------------------------------
+to change group of a file
+sudo chgrp devops application.log
+------------------------------------------------
+
+and if we want to find by group
+find ~/ group devops
